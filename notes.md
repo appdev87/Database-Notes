@@ -9,7 +9,7 @@
 - EER: Enhanced Entity Relationship
 - Functional Dependency: 
     ▶ A functional dependency is a constraint between two sets of attributes in a relation R.
-▶ If X and Y are two sets of attributes in the same relation R, then X → Y means that X functionally determines Y so that the values of the attributes in X uniquely determine the values of the attributes in Y
+    ▶ If X and Y are two sets of attributes in the same relation R, then X → Y means that X functionally determines Y so that the values of the attributes in X uniquely determine the values of the attributes in Y
 
 ## Relationship Model
 ![RelationshipModelEmployee.jpg](resources/20EEE15BA9BEC51F66B5880211623E8A.jpg =446x316)
@@ -29,7 +29,7 @@ E.g\thinspace3:\enspace\pi_{sName, cName}(\sigma_{HS \gt enr}(\sigma_{state=`CA`
 #### Another example:
 ![RelationDBModel.png](resources/43D6B6046D8C3207D506A0D797DAA504.png =624x369)
 
-###REFFERENCES:
+### REFFERENCES:
 
 - If data is not entered in the referred table, an error will come because the data has no reference to point to.
 
@@ -37,7 +37,7 @@ E.g\thinspace3:\enspace\pi_{sName, cName}(\sigma_{HS \gt enr}(\sigma_{state=`CA`
 
   - E.g '`...residence VARCHAR REFERENCES Residence);`'
 
-####Referential Integrity:
+#### Referential Integrity:
 
 • Puts `NULL` when the data is deleted
 
