@@ -11,7 +11,7 @@
     ▶ A functional dependency is a constraint between two sets of attributes in a relation R.
 ▶ If X and Y are two sets of attributes in the same relation R, then X → Y means that X functionally determines Y so that the values of the attributes in X uniquely determine the values of the attributes in Y
 
-##Relationship Model
+## Relationship Model
 ![RelationshipModelEmployee.jpg](resources/20EEE15BA9BEC51F66B5880211623E8A.jpg =446x316)
 
 ### Relational Algebra
